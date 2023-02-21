@@ -1,0 +1,50 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background: #dddd7f;
+}
+
+.header_div
+{
+    background: white;
+    color: #4900ff;
+}
+
+.header_div p
+{
+    font-family:'Verdana';
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main_div button
+{
+    font-family: 'Verdana';
+    margin-top: 36px;
+    width: 150px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: #deaf17;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: #ffffff;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
+
+
+.copy_right_footer img
+{
+   width: 50px;
+   height: 50px;     
+}

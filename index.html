@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2 class="glyphicon glyphicon-volume-up">Sound Controlled Aliens</h2>
+      <br id="p-br">
+      <i style="font-family: Arial; color: orange;">Play a bang, clap, or stomp and the aliens will move around</i>
+    </div>
+    <div class="main_div">
+      <center>
+        <br id="div-br">
+        <button class="glyphicon glyphicon-volume-up btn btn-success" onclick="startClassification()">Start</button>
+        <br>
+        <h3 class="glyphicon glyphicon-volume-up" id="result_label">We hear: </h3>
+        <br>
+        <h4 class="glyphicon glyphicon-dashboard" id="result_confidence">Accuracy: </h4>
+        <br>
+        <br id="result_br">
+        <img src="aliens-01.png" id="A1" width="300" height="300">
+        <img src="aliens-02.png" id="A2" width="300" height="300">
+        <img src="aliens-03.png" id="A3" width="300" height="300">
+        <img src="aliens-04.png" id="A4" width="300" height="300">
+      </center>
+    </div>
+    <div class="copy_right_footer">
+      <span>
+      <h6>Developed by calligrapher Om Vyas</h6>
+    <img src="bl_gear.gif">
+  </span>
+    </div>
+<script src="functions.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
